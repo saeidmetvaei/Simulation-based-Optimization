@@ -5,11 +5,11 @@ These codes are provided as parts of an optimization module in a project concern
 <br />
 
 * The Genetic Algorithm codes are available in the GA class. <br />
-     **     The chromosome class is where the chromosomes used in the GA class are defined.
+     **     The chromosome class is used in the GA class to define chromosomes.
     
  <br />
  
-* The Scenario class contains simulation codes that serve as the fitness function for evaluating the GA chromosome. Simphony.Net is used to create this class. <br />
-     **     To define the only resource used in simulation, the Technecian class is provided. <br />
-     **     The Simulation entities are defined in the RepairTasks class. <br />
-     **     The Cost class is used to make simulation calculations easier.
+* The Scenario class contains simulation codes that simulates an R&M plan produced by GA. Simphony.Net is used to create this class. <br />
+     **     The Technician class is utilized to model personnel resources. <br />
+     **     The RepairTasks class is used to define R&M tasks as simulation entities. <br />
+     **     The Cost class is used to calculate cost functions.
